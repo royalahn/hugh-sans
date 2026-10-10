@@ -20,7 +20,7 @@
   <p>
     <a href="https://github.com/royalahn/hugh-sans/stargazers"><img src="https://img.shields.io/github/stars/royalahn/hugh-sans?style=for-the-badge&logo=github&color=18181b" alt="GitHub Stars" /></a>
     <a href="https://www.jsdelivr.com/package/gh/royalahn/hugh-sans"><img src="https://img.shields.io/badge/CDN-jsDelivr-E32B2B?style=for-the-badge&logo=jsdelivr&logoColor=white" alt="jsDelivr" /></a>
-    <a href="hugh-sans.css"><img src="https://img.shields.io/badge/WOFF2-Optimized-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="WOFF2" /></a>
+    <a href="css/hugh-sans.css"><img src="https://img.shields.io/badge/WOFF2-Optimized-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="WOFF2" /></a>
     <a href="OFL.txt"><img src="https://img.shields.io/badge/License-OFL_1.1-34A853?style=for-the-badge" alt="License: OFL-1.1" /></a>
   </p>
 
@@ -52,12 +52,12 @@ You can load Hugh Sans directly via jsDelivr CDN by adding the stylesheet to you
 
 ### HTML
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@latest/hugh-sans.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@latest/css/hugh-sans.css" />
 ```
 
 ### CSS
 ```css
-@import url('https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@latest/hugh-sans.css');
+@import url('https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@latest/css/hugh-sans.css');
 
 body {
   font-family: 'Hugh Sans', sans-serif;
@@ -65,23 +65,23 @@ body {
 ```
 
 > **Tip:** For production stability, it is recommended to specify a branch (`@main`) or release tag (`@v1.0.0`) instead of `@latest`.  
-> Example: `https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@main/hugh-sans.css`
+> Example: `https://cdn.jsdelivr.net/gh/royalahn/hugh-sans@main/css/hugh-sans.css`
 
 ---
 
 ## 📦 Included Fonts
 
 ### Desktop (TTF)
-* `HughSans-Regular.ttf` (Weight: 400)
-* `HughSans-Medium.ttf` (Weight: 500)
-* `HughSans-SemiBold.ttf` (Weight: 600)
-* `HughSans-Bold.ttf` (Weight: 700)
+* `fonts/ttf/HughSans-Regular.ttf` (Weight: 400)
+* `fonts/ttf/HughSans-Medium.ttf` (Weight: 500)
+* `fonts/ttf/HughSans-SemiBold.ttf` (Weight: 600)
+* `fonts/ttf/HughSans-Bold.ttf` (Weight: 700)
 
 ### Web Font (WOFF2)
-* `HughSans-Regular.woff2` (Weight: 400)
-* `HughSans-Medium.woff2` (Weight: 500)
-* `HughSans-SemiBold.woff2` (Weight: 600)
-* `HughSans-Bold.woff2` (Weight: 700)
+* `fonts/woff2/HughSans-Regular.woff2` (Weight: 400)
+* `fonts/woff2/HughSans-Medium.woff2` (Weight: 500)
+* `fonts/woff2/HughSans-SemiBold.woff2` (Weight: 600)
+* `fonts/woff2/HughSans-Bold.woff2` (Weight: 700)
 
 ---
 
