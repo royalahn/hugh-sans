@@ -1,13 +1,12 @@
 <div align="right">
-  🌐 <b>English</b> | <a href="README_ko.md">한국어</a>
+  🌐 <b>English</b> · <a href="README_ko.md">한국어</a>
 </div>
 
 <div align="center">
   <a href="https://github.com/royalahn/hugh-sans">
-    <img src="assets/rabbit.png" alt="Hugh Sans Mascot" width="220" />
+    <img src="assets/rabbit.png" alt="Hugh Sans Mascot" width="120" />
   </a>
 
-  <br />
   <br />
 
   <h1>Hugh Sans</h1>
