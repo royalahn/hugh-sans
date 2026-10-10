@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Soft Drop Shadow for stickers -->
+    <filter id="soft-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+    
+    <!-- Gradients for subtle depth while keeping 2D cuteness -->
+    <linearGradient id="bunny-body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <linearGradient id="ear-pink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD1DC"/>
+      <stop offset="100%" stop-color="#FFB6C1"/>
+    </linearGradient>
+
+    <linearGradient id="hoodie-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+
+    <linearGradient id="letter-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#soft-shadow)">
+    <!-- BACK EARS -->
+    <!-- Left Ear (Upright & slightly tilted) -->
+    <path d="M 180 230 C 140 150, 150 40, 200 35 C 240 30, 245 140, 225 220 Z" 
+          fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M 188 200 C 165 140, 172 65, 202 60 C 228 55, 230 135, 218 195 Z" 
+          fill="url(#ear-pink)"/>
+
+    <!-- Right Ear (Cute Floppy / Folded tip) -->
+    <path d="M 290 220 C 275 140, 290 50, 335 45 C 365 42, 385 85, 360 135 C 345 165, 325 200, 315 225 Z" 
+          fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M 298 200 C 290 145, 305 75, 332 70 C 352 68, 362 98, 345 135 C 332 162, 318 185, 310 205 Z" 
+          fill="url(#ear-pink)"/>
+
+    <!-- BUNNY BODY -->
+    <ellipse cx="256" cy="380" rx="115" ry="95" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="6"/>
+
+    <!-- BLUE HOODIE / SHIRT -->
+    <path d="M 175 360 C 175 330, 205 320, 256 320 C 307 320, 337 330, 337 360 C 342 410, 332 445, 325 455 C 295 465, 215 465, 187 455 C 180 445, 170 410, 175 360 Z" 
+          fill="url(#hoodie-grad)" stroke="#1E40AF" stroke-width="5"/>
+    <!-- Hoodie Pocket -->
+    <path d="M 215 415 C 235 412, 277 412, 297 415 C 302 435, 292 445, 256 445 C 220 445, 210 435, 215 415 Z" 
+          fill="#1E40AF" opacity="0.35"/>
+    <!-- Hoodie Strings -->
+    <path d="M 235 340 L 232 375" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="232" cy="377" r="3.5" fill="#FFFFFF"/>
+    <path d="M 277 340 L 280 375" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="280" cy="377" r="3.5" fill="#FFFFFF"/>
+
+    <!-- FEET -->
+    <ellipse cx="205" cy="468" rx="34" ry="22" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="5"/>
+    <ellipse cx="307" cy="468" rx="34" ry="22" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="5"/>
+    <!-- Cute Pink Footpads -->
+    <ellipse cx="205" cy="468" rx="20" ry="12" fill="url(#ear-pink)"/>
+    <ellipse cx="307" cy="468" rx="20" ry="12" fill="url(#ear-pink)"/>
+
+    <!-- HEAD -->
+    <ellipse cx="256" cy="245" rx="130" ry="110" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="6"/>
+
+    <!-- ROSY CHEEKS -->
+    <ellipse cx="172" cy="275" rx="22" ry="13" fill="#FDA4AF" opacity="0.75"/>
+    <ellipse cx="340" cy="275" rx="22" ry="13" fill="#FDA4AF" opacity="0.75"/>
+
+    <!-- CUTE BIG SHINY EYES -->
+    <!-- Left Eye -->
+    <g transform="translate(195, 235)">
+      <ellipse cx="0" cy="0" rx="14" ry="20" fill="#1E293B"/>
+      <!-- Big Sparkle -->
+      <circle cx="-4" cy="-7" r="6" fill="#FFFFFF"/>
+      <!-- Small Sparkle -->
+      <circle cx="4" cy="7" r="3" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Right Eye -->
+    <g transform="translate(317, 235)">
+      <ellipse cx="0" cy="0" rx="14" ry="20" fill="#1E293B"/>
+      <!-- Big Sparkle -->
+      <circle cx="-4" cy="-7" r="6" fill="#FFFFFF"/>
+      <!-- Small Sparkle -->
+      <circle cx="4" cy="7" r="3" fill="#FFFFFF"/>
+    </g>
+
+    <!-- WINKY / HAPPY EYEBROWS -->
+    <path d="M 183 205 Q 195 198 207 205" stroke="#94A3B8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M 305 205 Q 317 198 329 205" stroke="#94A3B8" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- NOSE & W-SHAPED MOUTH -->
+    <polygon points="256,260 250,253 262,253" fill="#FB7185"/>
+    <path d="M 256 260 L 256 266" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 242 268 Q 249 276 256 266 Q 263 276 270 268" stroke="#475569" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- CUTE LITTLE GLASSES (Round Hipster Tech Glasses) -->
+    <circle cx="195" cy="235" r="32" fill="none" stroke="#334155" stroke-width="5.5"/>
+    <circle cx="317" cy="235" r="32" fill="none" stroke="#334155" stroke-width="5.5"/>
+    <!-- Bridge -->
+    <path d="M 227 230 Q 256 223 285 230" fill="none" stroke="#334155" stroke-width="5.5" stroke-linecap="round"/>
+    <!-- Frame Temples -->
+    <path d="M 163 232 L 140 227" stroke="#334155" stroke-width="4.5" stroke-linecap="round"/>
+    <path d="M 349 232 L 372 227" stroke="#334155" stroke-width="4.5" stroke-linecap="round"/>
+
+    <!-- PAWS HOLDING AN "H" BADGE -->
+    <!-- Center Letter Badge (Hugh Sans 'H') -->
+    <g transform="translate(256, 385)">
+      <rect x="-24" y="-24" width="48" height="48" rx="12" fill="url(#letter-grad)" stroke="#B45309" stroke-width="3"/>
+      <text x="0" y="11" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+            font-size="32" font-weight="900" fill="#FFFFFF" text-anchor="middle">H</text>
+    </g>
+
+    <!-- Left Paw -->
+    <ellipse cx="225" cy="385" rx="18" ry="14" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="4.5"/>
+    <!-- Right Paw -->
+    <ellipse cx="287" cy="385" rx="18" ry="14" fill="url(#bunny-body)" stroke="#CBD5E1" stroke-width="4.5"/>
+  </g>
+</svg>
