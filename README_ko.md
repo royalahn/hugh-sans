@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/royalahn/hugh-sans">
-    <img src="assets/banner.svg" alt="Hugh Sans Banner" width="100%" />
+    <img src="assets/rabbit.jpg" alt="Hugh Sans Mascot" width="650" />
   </a>
 
   <br />
